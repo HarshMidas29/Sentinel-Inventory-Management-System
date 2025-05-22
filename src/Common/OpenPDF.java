@@ -19,7 +19,7 @@ public class OpenPDF {
             if (new File(InventoryUtils.billPath + id + ".pdf").exists()) {
                 Process p = Runtime
                         .getRuntime()
-                        .exec("rundll32 url.dll,FileProtocolHandler " + InventoryUtils.billPath + "" + id + ".pdf");
+                        .exec(new String[]{"rundll32", "url.dll,FileProtocolHandler", InventoryUtils.billPath + id + ".pdf"});
             } else {
                 JOptionPane.showMessageDialog(null, "File Does Not Exist");
             }

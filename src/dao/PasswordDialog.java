@@ -1,6 +1,5 @@
 package dao;
 
-import dao.PasswordManager;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

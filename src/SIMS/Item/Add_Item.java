@@ -127,7 +127,6 @@ public class Add_Item extends javax.swing.JFrame {
         return isValid;
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 

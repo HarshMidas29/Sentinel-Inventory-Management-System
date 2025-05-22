@@ -14,7 +14,6 @@ import java.sql.Date;
 import java.text.SimpleDateFormat;
 import javax.swing.JFileChooser;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableModel;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -372,7 +371,6 @@ public class Assign_Item extends javax.swing.JFrame {
         }
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 

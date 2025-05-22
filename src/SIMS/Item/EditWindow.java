@@ -4,8 +4,6 @@ import dao.ConnectionProvider;
 import javax.swing.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.sql.Date;
 
 public class EditWindow extends JFrame {
